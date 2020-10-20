@@ -20,10 +20,13 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Include any options that can't be included in BoardConfig.mk
+$(call inherit-product, device/samsung/a71/device.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_a71
 PRODUCT_DEVICE := a71
-PRODUCT_MODEL := SM-A515F
+PRODUCT_MODEL := SM-A715F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
