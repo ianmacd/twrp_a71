@@ -1,6 +1,1 @@
-Use system.prop instead of device.mk for PRODUCT_USE_DYNAMIC_PARTITIONS.
-    
-'PRODUCT_USE_DYNAMIC_PARTITIONS := true' causes the following warning to be
-repeatedly logged:
-
-11-02 08:40:10.912  4727  4727 W ServiceManagement: Waited for hwservicemanager.ready for a second, waiting another...
+ro.boot.dynamic_partitions = true
