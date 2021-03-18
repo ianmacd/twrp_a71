@@ -10,6 +10,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+PLATFORM_VERSION := 11
 
 DEVICE_PATH := device/samsung/a71
 
