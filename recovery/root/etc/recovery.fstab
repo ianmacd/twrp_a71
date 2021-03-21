@@ -68,7 +68,7 @@ vendor                                    /vendor        ext4
 /metadata		    ext4	  /dev/block/bootdevice/by-name/metadata	flags=backup=1;display="Metadata"
 #/dev/block/bootdevice/by-name/optics	/optics	ext4	default	recoveryonly
 /optics			    ext4	/dev/block/bootdevice/by-name/optics		flags=backup=1;display="Optics"
-/optics_img		    ext4	/dev/block/bootdevice/by-name/optics		flags=backup=1;flashimg;display="Optics image"
+/optics_img		    emmc	/dev/block/bootdevice/by-name/optics		flags=backup=1;flashimg;display="Optics image"
 #/dev/block/bootdevice/by-name/prism	/prism	ext4	default	recoveryonly
 /prism			    ext4	/dev/block/bootdevice/by-name/prism		flags=backup=1;display="Prism"
 /prism_img		    emmc	/dev/block/bootdevice/by-name/prism		flags=backup=1;flashimg;display="Prism image"
